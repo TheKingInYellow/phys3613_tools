@@ -7,6 +7,8 @@ Author = Kody Crowell
 Version = 1.0
 
 Plots the pressure vs. the volume and determines gamma for air. Numerically integrates over the P-V data for each lever lifting and calculates the experimental work done. Computes the theoretical value.
+
+* Obsolete!
 """
 
 import sys, os

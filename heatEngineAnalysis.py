@@ -5,6 +5,8 @@
 Filename = heatEngineAnalysis.py
 Author = Kody Crowell
 Version = 1.0
+
+* Unfinished!
 """
 
 import sys, os
@@ -28,7 +30,7 @@ if __name__ == '__main__':
     path2dat=PATH2DAT
     files = [path2dat + fname for fname in os.listdir(path2dat)]
 
-    diffsP=[]; diffsD=[]; err=[]; 
+    diffsP=[]; diffsD=[]; err=[];
 
     for fname in files:
         print fname
